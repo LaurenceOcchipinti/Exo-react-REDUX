@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-const Footer = () => {
+const Footer = ({techno,user}) => {
 return (
     <footer>
-        <p>Footer</p>
+        <p>Footer {techno} by {user}</p>
     </footer>
     )
 

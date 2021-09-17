@@ -1,13 +1,20 @@
 .header {
+    height: 50vh;
     background-color: red;
+    display: flex;
+    flex-direction: column; // direction principale
+    justify-content: flex-end;//prend l axe column
+    align-items: flex-start;
 }
 
 
 .header__titre {
     color: aqua;
+
     }
 
 
 .header__paragraphe {
     color: green;
+
 }
