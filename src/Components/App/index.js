@@ -5,11 +5,12 @@ import Main from '../Main';
 
 
 function App() {
+  
   return (
     <div className="App">
     <Header title='Pif et Hercule' sujet="Adrien n'est pas encore né" date={1999} /> 
     <Main article='Diffusion sur Antenne 2' sujet="Adrien est jeune" />
-    <Footer techno="Javascript" user="Adrien"/>
+    <Footer techno="Javascript" user="Adrien" date={2021}/>
    
     </div>
   );
