@@ -7,8 +7,8 @@ import Main from '../Main';
 function App() {
   return (
     <div className="App">
-    <Header />
-    <Main />
+    <Header title='tour de France'  />
+    <Main article='maillot jaune' sujet='jallabert est tombé' />
     <Footer />
    
     </div>

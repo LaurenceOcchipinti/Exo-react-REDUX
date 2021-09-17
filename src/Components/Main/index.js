@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Main = () => {
+const Main = ({article, sujet}) => {
     return (
         <main>
-            <h2>Main</h2>
+            <h2>{article}</h2>
+            <p> {sujet}</p>
         </main>
 )
 
